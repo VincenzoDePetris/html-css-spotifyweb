@@ -47,6 +47,94 @@ header {
 
 /* SONG SECTION */
 
+/* menu section */
+
+.logo {
+  width: 60%;
+  padding: 1rem;
+}
+
+.side-bar {
+  color: whitesmoke;
+  position: relative;
+}
+
+.home {
+  margin: 1rem;
+}
+
+.home div {
+  margin: 0.5rem 0;
+}
+
+.icon-menu {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+.home-flex {
+  align-items: center;
+}
+
+.playlist h3 {
+  margin-left: 1rem;
+}
+
+.playlist ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.playlist ul li {
+  margin-bottom: 1rem;
+}
+
+.user-install {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.playlist ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.add-playlist {
+  align-items: center;
+}
+
+.gray-square {
+  padding: 1rem;
+  background-color: gray;
+  margin: 1rem;
+}
+
+.install {
+  margin: 0 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: solid white 1px;
+}
+
+.fa-circle-down {
+  margin-right: 0.6rem;
+}
+
+.user {
+  align-items: center;
+  margin-top: 0;
+}
+
+.user-img {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  margin: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 /* FOOTER SECTION */
 
 footer {
