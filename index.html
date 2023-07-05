@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Spotify</title>
   </head>
@@ -40,11 +47,47 @@
     </main>
     <footer>
       <!-- title song -->
-      <div>TITOLO CANZONE</div>
+      <div class="flex title-song">
+        <div class="sinister-img">
+          <img src="./img/sinister.jpeg" alt="sinister image" />
+        </div>
+        <div>
+          <p class="name-song">
+            Sinister <br />
+            <span class="singer">Brano nome</span>
+          </p>
+        </div>
+        <div class="footer-icon">
+          <p><i class="fa-regular fa-heart"></i></p>
+        </div>
+        <div class="footer-icon">
+          <p><i class="fa-regular fa-folder"></i></p>
+        </div>
+      </div>
       <!-- song bar -->
-      <div>DURATA CANZONE</div>
+      <div class="player">
+        <!-- player -->
+        <div class="flex player-simbol">
+          <p><i class="fa-solid fa-shuffle"></i></p>
+          <p><i class="fa-solid fa-arrow-left"></i></p>
+          <p><i class="fa-solid fa-pause"></i></p>
+          <p><i class="fa-solid fa-arrow-right"></i></p>
+          <p><i class="fa-solid fa-arrow-rotate-right"></i></p>
+        </div>
+        <!-- duration -->
+        <div class="flex duration">
+          <div><p>0:25</p></div>
+          <div class="duration-bar"></div>
+          <div><p>4:35</p></div>
+        </div>
+      </div>
       <!-- volume -->
-      <div>VOLUME</div>
+      <div class="sound">
+        <div><i class="fa-solid fa-bars"></i></div>
+        <div><i class="fa-solid fa-display"></i></div>
+        <div><i class="fa-solid fa-volume-high"></i></div>
+        <div class="sound-bar"></div>
+      </div>
     </footer>
   </body>
 </html>
