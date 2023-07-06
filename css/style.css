@@ -64,6 +64,12 @@ header {
   color: whitesmoke;
 }
 
+.upgrade:hover {
+  padding: 0.6rem 1.2rem;
+  color: #a3a3a3;
+  font-size: 1rem;
+}
+
 /* SONG SECTION */
 
 /* menu section */
@@ -78,7 +84,7 @@ header {
 }
 
 .side-bar {
-  color: whitesmoke;
+  color: #ffffff;
   position: relative;
   font-size: 0.8rem;
 }
@@ -124,12 +130,12 @@ header {
 
 .install a {
   text-decoration: none;
-  color: darkgray;
+  color: #ffffff;
 }
 
 .playlist ul li a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #ffffff;
 }
 
 .add-playlist {
@@ -166,6 +172,22 @@ header {
   overflow: hidden;
 }
 
+.home-flex:hover {
+  color: #a3a3a3;
+}
+
+.add-playlist:hover {
+  color: #a3a3a3;
+}
+
+.playlist li a:hover {
+  color: #a3a3a3;
+}
+
+.install a:hover {
+  color: #a3a3a3;
+}
+
 /* SONG SECTION */
 
 .song ul {
@@ -180,7 +202,12 @@ header {
 
 .song ul li a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #ffffff;
+}
+
+.list li a:hover {
+  border-bottom: green 2px solid;
+  color: #a3a3a3;
 }
 
 /* playlist section */
@@ -196,8 +223,16 @@ header {
   color: darkgray;
 }
 
+.song-image-div {
+  position: relative;
+}
+
 .mazzo {
   flex-wrap: wrap;
+}
+
+.song-select :hover {
+  opacity: 0.5;
 }
 
 .card {
