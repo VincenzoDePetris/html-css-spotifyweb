@@ -1,5 +1,10 @@
 /* GENERAL */
 
+html {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -85,8 +90,9 @@ header {
 
 .side-bar {
   color: #ffffff;
-  position: relative;
   font-size: 0.8rem;
+
+  overflow-x: auto;
 }
 
 .home {
@@ -120,8 +126,8 @@ header {
 }
 
 .user-install {
-  position: absolute;
-  bottom: 0;
+  position: sticky;
+  top: 100%;
   right: 0;
   left: 0;
   z-index: 1;
@@ -185,7 +191,7 @@ header {
   color: #a3a3a3;
 }
 
-.install a:hover {
+#hover-install div a:hover {
   color: #a3a3a3;
 }
 
@@ -224,10 +230,6 @@ header {
   color: darkgray;
 }
 
-.song-image-div {
-  position: relative;
-}
-
 .mazzo {
   flex-wrap: wrap;
 }
@@ -241,6 +243,10 @@ header {
   width: calc(100% / 6 - 1rem);
 }
 
+.song-image-div {
+  position: relative;
+}
+
 .card h3 {
   margin: 1rem 0 0 0;
   color: whitesmoke;
@@ -250,6 +256,27 @@ header {
 .card p {
   margin: 0.5rem 0;
   color: darkgrey;
+}
+
+.card img:hover {
+  opacity: 0.5;
+}
+
+.card span {
+  float: left;
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  opacity: 0;
+  font-size: 2rem;
+}
+
+.card:hover span {
+  opacity: 1;
 }
 
 .autore {

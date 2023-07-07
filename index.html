@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -11,6 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/favicon.ico" />
     <title>Spotify</title>
   </head>
   <body>
@@ -62,10 +69,12 @@
         <!-- USER -->
         <div class="user-install">
           <div class="install flex">
-            <div>
-              <a href="#"><i class="fa-regular fa-circle-down"></i></a>
+            <div id="hover-install" class="flex">
+              <div>
+                <a href="#"><i class="fa-regular fa-circle-down"></i></a>
+              </div>
+              <div class="user-text"><a href="#">Installa app</a></div>
             </div>
-            <div class="user-text"><a href="#">Installa app</a></div>
           </div>
           <div class="user flex">
             <div class="user-img">
@@ -102,12 +111,14 @@
               <!-- heavy metal -->
               <div class="card">
                 <!-- playlist image -->
+
                 <div class="song-image-div">
                   <img
                     class="song-select"
                     src="./img/metal_lifting.jpg"
                     alt="metal playlist"
                   />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Heavy Metal</h3>
                 <p>Subtitle</p>
@@ -115,8 +126,9 @@
               <!-- stranger things -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/stranger.jpeg" alt="stranger playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>
                   Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)
@@ -126,8 +138,9 @@
               <!-- quiet place -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/aquietplace.jpeg" alt="quiet playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>A quiet place</h3>
                 <p>Subtitle</p>
@@ -135,8 +148,9 @@
               <!-- split -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/split.jpeg" alt="split playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Split</h3>
                 <p>Subtitle</p>
@@ -144,8 +158,9 @@
               <!-- cure for wellness -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/cure.jpeg" alt="cure playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>A cure for wellness</h3>
                 <p>Subtitle</p>
@@ -153,8 +168,9 @@
               <!-- sinister -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/sinister.jpeg" alt="sinister playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Sinister</h3>
                 <p>Subtitle</p>
@@ -169,16 +185,18 @@
               <!-- heavy metal -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/radar.jpeg" alt="release radar playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Release Radar</h3>
               </div>
               <!-- stranger things -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img src="./img/mixdaily.jpeg" alt="dayli playlist" />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Daily Mix 1</h3>
               </div>
@@ -192,24 +210,26 @@
               <!-- heavy metal -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img
                     class="autore"
                     src="./img/youg.jpeg"
                     alt="Lana del Rey"
                   />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Lana Del Rey</h3>
               </div>
               <!-- stranger things -->
               <div class="card">
                 <!-- playlist image -->
-                <div>
+                <div class="song-image-div">
                   <img
                     class="autore"
                     src="./img/einaudi.jpeg"
                     alt="einaudi playlist"
                   />
+                  <span><i class="fa-solid fa-play"></i></span>
                 </div>
                 <h3>Ludovico Einaudi</h3>
               </div>
