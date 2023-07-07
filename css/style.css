@@ -32,14 +32,14 @@ main {
 .side-bar {
   width: 300px;
   height: calc(100vh - 80px);
-  background-color: black;
+  background-color: #000000;
 }
 
 /* MUSIC */
 
 .music {
   width: calc(100% - 300px);
-  background-color: gray;
+  background-color: #141922;
   height: calc(100vh - 80px - 2rem);
   overflow-x: auto;
   padding-bottom: 2rem;
@@ -288,7 +288,7 @@ header {
 footer {
   height: 80px;
   width: 100%;
-  background-color: black;
+  background-color: #282828;
   color: white;
   display: flex;
   justify-content: space-between;
